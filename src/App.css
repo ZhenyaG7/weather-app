@@ -4,6 +4,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 90vw;
+  background-image: url("https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=830&q=80");
 }
 
 .container {
@@ -34,13 +35,15 @@ body {
 .container__input {
   border-radius: 10px;
   width: 70vw;
-  color: #787777;
+  color: #3a3838;
   font-size: 1rem;
   float: left;
+  border: none;
 }
 
-.container__input:hover {
-  background-color: #f9efe3;
+.container__input:focus {
+  border: none;
+  size: 2rem;
 }
 
 .container__first, .container__second, .container__third, .container__fourth, .container__fifth {
@@ -62,24 +65,24 @@ body {
 }
 
 .container__first {
-  background-color: rgba(127, 255, 212, 0.397);
+  background-color: rgba(226, 111, 29, 0.41);
   height: 190px;
   border-radius: 35px;
 }
 
 .container__second {
-  background-color: rgba(255, 255, 0, 0.434);
+  background-color: rgba(226, 111, 29, 0.314);
 }
 
 .container__third {
-  background-color: rgba(205, 81, 40, 0.408);
+  background-color: rgba(226, 111, 29, 0.205);
 }
 
 .container__fourth {
-  background-color: rgba(160, 13, 148, 0.456);
+  background-color: rgba(226, 111, 29, 0.132);
 }
 
 .container__fifth {
-  background-color: rgba(31, 219, 144, 0.389);
+  background-color: rgba(226, 111, 29, 0.133);
 }
 /*# sourceMappingURL=app.css.map */
