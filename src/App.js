@@ -10,25 +10,10 @@ function App() {
   // const [image, setImage] = useState();
 
 
-  // const apiUnsplash = `https://api.unsplash.com//photos/random/?client_id=Xhw4RjF5-Ob3p-C-kVvweLVWmCiHYpd18xyJXQL3miw` ;
-  const url = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&units=imperial&appid=67ad10e319c8a6c07cb3f2345e65cce3&units=metric`;
 
-// fetch(apiUnsplash)
-//   .then((response) => {
-//     setImage(response.data.results[0].urls.regular);
-//     document.body.style.color = "white";
-//   })
- 
+  const url = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=67ad10e319c8a6c07cb3f2345e65cce3&units=metric`;
 
-  // const imageElement = document.querySelector(".unsplashImage");
-  
-  // fetch(apiUnsplash)
-  // .then(function(response){
-  //   return response
-  // })
-  // .then(function (jsonData){
-  //   imageElement.src = jsonData.urls.regular
-  // });
+
 
 
 
